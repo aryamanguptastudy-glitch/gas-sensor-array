@@ -5,10 +5,10 @@
 // -----------------------------------------
 // 1. NETWORK & CLOUD CONFIGURATION
 // -----------------------------------------
-const char* ssid = "wifi name";         // Inject your local Wi-Fi SSID
-const char* password = "wifi password"; // Inject your local Wi-Fi Password
+const char* ssid = "<YOUR_WIFI_SSID>";         // Inject your local Wi-Fi SSID
+const char* password = "<YOUR_WIFI_PASSWORD>"; // Inject your local Wi-Fi Password
 
-const char* mqtt_server = "80.225.194.107";  // Your Oracle Cloud Public IP
+const char* mqtt_server = "<MQTT_SERVER_IP>";  // Your Oracle Cloud Public IP
 const int mqtt_port = 1883;
 const char* mqtt_topic = "ammonia/sensor";   // Must exactly match telegraf.conf
 
