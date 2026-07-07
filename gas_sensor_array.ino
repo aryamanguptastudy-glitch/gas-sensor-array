@@ -56,10 +56,6 @@ void setup_wifi() {
   Serial.println(WiFi.localIP());
 }
 
-  Serial.println("\nWiFi connected.");
-  Serial.print("ESP32 IP address: ");
-  Serial.println(WiFi.localIP());
-}
 
 void reconnect() {
   // Loop until reconnected to the Mosquitto broker
